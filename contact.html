@@ -16,6 +16,38 @@
             </nav>
         </header>
     </div>
-    
+
+    <div>
+        <section id="contact me">
+            <h3>Contact Me</h3>
+            <p>Use the form below to contact me!</p>
+
+            <form>
+                <label for="first name">First Name:</label>
+                <input type="text" id="first name" name="first name" required><br><br>
+
+                <label for="last name">Last Name:</label>
+                <input type="text" id="last name" name="last name" required><br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" required><br><br>
+                
+                <p>Gender:</p>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label><br><br>
+
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">I agree to all the terms and conditions.</label><br><br>
+
+                <label for="satisfaction">How satisfied are you with my site?</label>
+                <input type="range" id="satisfaction" name="satisfaction" min="1" max="10"><br><br>
+
+                <button type="submit">Submit</button>
+                <button type="button" onclick="alert('Thanks for reaching out!')">Click Me</button>
+            </form>
+        </section>
+    </div>
 </body>
 </html>
